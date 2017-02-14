@@ -1,0 +1,34 @@
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<body>
+<div id="1">
+    My Content 1
+</div>
+
+<div id="2" style="display:none;">
+    My Dynamic Content
+</div>
+<button id="btnClick">Click me!</button>
+	
+</body>
+<script
+	  src="https://code.jquery.com/jquery-3.1.1.min.js"
+	  integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
+	  crossorigin="anonymous"></script>
+<script>
+$('#btnClick').on('click',function(){
+    if($('#1').css('display')!='none'){
+    $('#2').html('Here is my dynamic content').show().siblings('div').hide();
+    }else if($('#2').css('display')!='none'){
+        $('#1').show().siblings('div').hide();
+    }
+});
+	
+	 $.each(objectName.ul, function(index, value){
+            var $li = $("<li/>").html(value).appendTo('ul.college');
+        });
+</script>
+</html>
