@@ -13,7 +13,7 @@
       var shoptObj = new content ("Shopping Tracker App", " This App allows user to track shopping items from a pre-determined list, add/remove them from cart and update prices when necessary. Technologies used are as follows:", ['AngularJS','Ionic','JavaScript','CSS3', 'HTML5'], ['apks/shoppingCalc.apk','https://github.com/Mathemagiks/Shopping-Tracker.git']);
       var photoObj = new content ("Photo Sender App", " This App was developed to allow users to email photos taken by device with both title and description features and option to store persistently in gallery. Technologies:", ['AngularJS','Ionic','JavaScript','HTML5','CSS3'], ['apks/PhotoSenderManual.pdf','https://github.com/Mathemagiks/cpmad.git']);
 
-      var artWebObj = new content( " Artist Website","This website was created to showcase artists work and skills in following technologies used:",['Bootstrap','HTML5', 'CSS3', 'JavaScript', 'jQuery'],['https://gotreasa.github.com/Artist-Website','https://github.com/Mathemagiks/Artist-Website.git']);
+      var artWebObj = new content( " Artist Website","This website was created to showcase artists work and skills in following technologies used:",['Bootstrap','HTML5', 'CSS3', 'JavaScript', 'jQuery'],['https://gotreasa.github.io/Artist-Website','https://github.com/Mathemagiks/Artist-Website.git']);
       var artWebAppObj = new content("Artist Website/Webstore", "This website was created to showcase artists work and present webstore that can take in mock credit card data, implement registration/login/logout using the following technologies:", ['Bootstrap','HTML5', 'CSS3', 'JavaScript', 'jQuery', 'PHP', 'MySQL', 'AJAX'], ['https://sharondesmond.infinityfreeapp.com/','https://github.com/Mathemagiks/Artist-Website-Webstore.git']);
 
        
