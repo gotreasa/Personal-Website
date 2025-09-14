@@ -8,13 +8,13 @@
 
       }
 
-      var nasaObj = new content( "Nasa Picture of the Day App", "This App was developed as a team project. Its aim was to access the Nasa Astronomy Picture of the Day API and display the 'picture of the day' and other data retrieved from the service. Technologies used are as follows:", ['AngularJS','Ionic','CSS3', 'JavaScript', 'HTML5', 'AJAX' ], ['apks/nasaPOD.apk', 'about.html']);
+      var nasaObj = new content( "Nasa Picture of the Day App", "This App was developed as a team project. Its aim was to access the Nasa Astronomy Picture of the Day API and display the 'picture of the day' and other data retrieved from the service. Technologies used are as follows:", ['AngularJS','Ionic','CSS3', 'JavaScript', 'HTML5', 'AJAX' ], ['apks/NasaPOD.apk', 'about.html']);
       var reminderObj = new content( "To-do/Reminder App", "This App allows user to store persistent text reminders locally and in the cloud with an update and delete feature. Technologies used are as follows: ",['AngularJS','Ionic','JavaScript','HTML5','CSS3', 'AJAX'], ['apks/reminderApp.apk','about.html']);
       var shoptObj = new content ("Shopping Tracker App", " This App allows user to track shopping items from a pre-determined list, add/remove them from cart and update prices when necessary. Technologies used are as follows:", ['AngularJS','Ionic','JavaScript','CSS3', 'HTML5'], ['apks/shoppingCalc.apk','https://github.com/Mathemagiks/Shopping-Tracker.git']);
       var photoObj = new content ("Photo Sender App", " This App was developed to allow users to email photos taken by device with both title and description features and option to store persistently in gallery. Technologies:", ['AngularJS','Ionic','JavaScript','HTML5','CSS3'], ['apks/PhotoSenderManual.pdf','https://github.com/Mathemagiks/cpmad.git']);
 
-      var artWebObj = new content( " Artist Website","This website was created to showcase artists work and skills in following technologies used:",['Bootstrap','HTML5', 'CSS3', 'JavaScript', 'jQuery'],['web_app_one/index.html','https://github.com/Mathemagiks/Artist-Website.git']);
-      var artWebAppObj = new content("Artist Website/Webstore", "This website was created to showcase artists work and present webstore that can take in mock credit card data, implement registration/login/logout using the following technologies:", ['Bootstrap','HTML5', 'CSS3', 'JavaScript', 'jQuery', 'PHP', 'MySQL', 'AJAX'], ['web_app_two/index.php','https://github.com/Mathemagiks/Artist-Website-Webstore.git']);
+      var artWebObj = new content( " Artist Website","This website was created to showcase artists work and skills in following technologies used:",['Bootstrap','HTML5', 'CSS3', 'JavaScript', 'jQuery'],['https://gotreasa.github.com/Artist-Website','https://github.com/Mathemagiks/Artist-Website.git']);
+      var artWebAppObj = new content("Artist Website/Webstore", "This website was created to showcase artists work and present webstore that can take in mock credit card data, implement registration/login/logout using the following technologies:", ['Bootstrap','HTML5', 'CSS3', 'JavaScript', 'jQuery', 'PHP', 'MySQL', 'AJAX'], ['https://sharondesmond.infinityfreeapp.com/','https://github.com/Mathemagiks/Artist-Website-Webstore.git']);
 
        
       
